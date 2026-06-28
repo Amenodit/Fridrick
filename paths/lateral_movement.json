@@ -1,0 +1,19 @@
+{
+  "id": "AP-002",
+  "name": "Lateral Movement via SMB",
+  "severity": "Critical",
+  "category": "Lateral Movement",
+  "description": "Attacker uses compromised host to pivot to other network segments.",
+  "steps": [
+    "Initial foothold gained",
+    "SMB shares enumerated",
+    "Pass-the-hash attack executed"
+  ],
+  "mitigations": [
+    "Network segmentation",
+    "Disable unnecessary SMB",
+    "Monitor lateral traffic"
+  ],
+  "version": "1.0",
+  "last_updated": "2026-06-28T07:50:18.956Z"
+}
