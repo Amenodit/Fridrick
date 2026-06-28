@@ -1,0 +1,19 @@
+{
+  "id": "AP-003",
+  "name": "Data Exfiltration via HTTPS",
+  "severity": "High",
+  "category": "Exfiltration",
+  "description": "Sensitive data exfiltrated over encrypted HTTPS to avoid detection.",
+  "steps": [
+    "Data identified and staged",
+    "Encrypted channel established",
+    "Data transferred out"
+  ],
+  "mitigations": [
+    "DLP controls",
+    "TLS inspection",
+    "Egress filtering"
+  ],
+  "version": "1.0",
+  "last_updated": "2026-06-28T07:50:18.956Z"
+}
